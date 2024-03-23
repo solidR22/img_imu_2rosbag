@@ -39,7 +39,6 @@ int main(int argc, char **argv)
     std::vector<std::vector<std::string>> image_names(numCameras);
     open_file(path, image_names, numCameras);
     std::ifstream imu_file(path + "/imu0/data.csv");
-    std::ifstream imu_file(path + "/imu0/data.csv");
 
     // get start address of cam-image
     std::vector<std::vector<std::string>::iterator> cam_iterators(numCameras);
